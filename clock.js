@@ -15,6 +15,9 @@ function getTime() {
 
 //${hours < 12 ? `AM ${hours}` : `PM ${hours}`}
 
+// getTime();
+// setInterval(getTime, 1000);
+
 function init() {
   getTime();
   setInterval(getTime, 1000);
